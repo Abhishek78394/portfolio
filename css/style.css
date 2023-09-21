@@ -3344,6 +3344,10 @@ html {
   
   .project-image-link {
     width: 100%;
+    height: 100%;
+    border: 10px solid #292727;
+    border-radius: 5px;
+
   }
   
   .project-image-wrapper {
@@ -3353,15 +3357,21 @@ html {
     overflow: hidden;
   }
   
+  .project-image-wrapper img {
+    object-fit: contain;
+    border: 5px solid rgba(255, 255, 255);
+  }
   .project-image {
     width: 100%;
-    height: 100%;
+    height: 100%!important;
     object-fit: contain;
     position: absolute;
     top: 0%;
     bottom: 0%;
     left: 0%;
     right: 0%;
+    border-radius: 5px;
+
   }
   
   .project-title-wrapper {
